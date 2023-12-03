@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+  <h1>{% block title %}Upload{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+<!doctype html>
+	
+<body>
+&emsp;
+<center><img src="{{ logo }}" alt="LOGO" height="300" width="900" border="5">
+&emsp;
+&emsp;
+  <title>Upload a new picture</title>
+    	<h1>Upload a new picture (it must not be blury, otherwise it won't work right.)</h1>
+	<br>
+    		<form method=post enctype=multipart/form-data>
+      			<input type=file name=file style="height:100px; width:200px">
+				<br>
+         		<input type=submit value=Upload style="height:50px; width:100px">
+    		</form>
+</center>
+</body>
+
+{% endblock %}

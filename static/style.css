@@ -1,0 +1,22 @@
+body{
+	background: #D3D7E8;
+}
+
+#formUp{
+	position: absolute;
+	text-align: center;
+}
+/*
+
+    return '''
+    <!doctype html>
+    <title>Upload new File</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <h1>Upload new File</h1>
+    <form id = "formUp" method=post enctype=multipart/form-data>
+      <p><input type=file name=file>
+         <input type=submit value=Upload>
+    </form>
+    '''
+
+*/

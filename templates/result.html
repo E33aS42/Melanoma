@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+  <h1>{% block title %}Result{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character recognition</title>
+</head>
+<body>
+&emsp;
+<center>
+&emsp;
+<h1>The image class is {{category}} with a prediction probability of {{proba}}%.</h1>
+<br>
+&emsp;
+<img src="{{ image }}" alt="Image to predict" height="400" border="5">
+</center>
+</body>
+</html>
+
+{% endblock %}
