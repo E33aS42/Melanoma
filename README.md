@@ -9,7 +9,7 @@ https://www.kaggle.com/datasets/wanderdust/skin-lesion-analysis-toward-melanoma-
 
 This is a little web tool made with Flask that:
 1. predicts labels for a given image.
-2. uses a given model previously trained with the training script found in the `train_model` folder.
+2. uses a given model previously trained with the training script `train.py`.
 3. compares to the true labels of the image if those are known.
 
 
@@ -37,4 +37,3 @@ The tool requires:
 - an image.
 - an optional .json file containing the true labels of the image.
 - the path to the model.
-- the number of directions (3 or 5) used when the model was trained.
